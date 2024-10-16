@@ -1,7 +1,7 @@
 // ページが読み込まれたときにタイマーを開始
 window.onload = function() {
   // 制限時間（秒）
-  const timeLimit = 10; // 例: 2分 = 120秒
+  const timeLimit = 300; // 例: 2分 = 120秒
 
   // 残り時間を表示するための要素を取得
   const timerElement = document.getElementById('timer');
